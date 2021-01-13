@@ -1,8 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
 /*Mixims, variables etc*/ 
 $gray-medium-light: #eaeaea;
@@ -167,3 +165,21 @@ margin-top: 0px;
 float: left;
 margin-right: 10px;
 }
+
+@media (max-width: 800px) {
+  footer {
+  small {
+  display: block;
+  float: none;
+  margin-bottom: 1em;
+  }
+  ul {
+  float: none;
+  padding: 0;
+  li {
+  float: none;
+  margin-left: 0;
+  }
+  }
+  }
+  }
